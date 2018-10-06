@@ -1,0 +1,38 @@
+title: Intro Theme Sample
+author: simple-themes
+description: Example site with the Intro theme.
+# Link to a profile picture - required
+avatar: https://avatars2.githubusercontent.com/u/43795230?s=200&v=4
+# path to your repository - required
+repo: simple-themes/intro-theme
+# social links - optional
+mail:  
+twitter_username: 
+github_username: simple-themes
+# theme - fill out if you want to change colors
+
+theme_nav: "#dddddd" # color of the navbar
+theme_accent: "#1199ff" # color of tags and highlights, should contrast with white
+theme_img: "https://images.unsplash.com/photo-1531398956050-f9a5743a68b8?&w=1050" # url to the image on the header
+theme_colors: ["#3399ff","#cc33ff","#ff6600","#669900","#cc9900"] # five colors to use for post backgrounds. should contrast with white.
+theme_footer: "#000000" # color of the footer, should contrast with white
+
+# Optional config - just for more customization or troubleshooting
+# how many posts to show per page
+paginate: 15
+
+# change this if you are on a project repo, not a username.github.io repo
+# for example, if your repo is hello-world, set this to hello-world
+path: 
+
+# Ignore the rest of this file unless you want to change more settings
+rss: rss
+permalink: /blog/:title/
+
+paginate_path: "/blog/:num/"
+
+sass:
+    style: compact
+
+plugins:
+ - jekyll-feed
